@@ -1,0 +1,72 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  display: flex;
+  max-width: 50rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f7f6;
+  width: 80%;
+  height: 15rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+}
+.form-group {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.blinking-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff; /* Blue color */
+  animation: blink 2s infinite; /* Infinite blinking every 2 second */
+  text-align: center;
+  margin: 20px 0;
+}
+.input-box {
+  margin-right: 1rem;
+}
+
+.login-label {
+  margin: 1.5rem;
+}
+
+.transparent-button {
+  background-color: transparent;
+  border: 2px solid #007bff; /* Solid border with a color */
+  color: #007bff; /* Text color */
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 16px; /* Font size */
+  border-radius: 25px; /* Rounded edges */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for the button */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  cursor: pointer;
+}
+.transparent-button:hover {
+  background-color: #007bff; /* Solid background on hover */
+  color: white; /* White text color on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.transparent-button:active {
+  transform: scale(0.95); /* Slightly shrink on click */
+}
+@media (max-width: 480px) {
+}

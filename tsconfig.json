@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "strict": true,
+    "jsx": "react-jsx", // For React 17+ (with the new JSX transform)
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "include": ["src/**/*.d.ts", "src/**/*"] //This command helps to ensure TS understands global declaration
+  }
+}
